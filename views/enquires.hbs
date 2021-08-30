@@ -1,0 +1,20 @@
+<table class="table table-dark">
+  <thead>
+    <tr>
+      
+      <th scope="col">Name</th>
+      <th scope="col">E mail</th>
+      <th scope="col">Message</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+ {{#each enquires}}
+      <td>{{this.fullname}}</td>
+      <td>{{this.email}}</td>
+      <td>{{this.message}}</td>
+    </tr>
+    {{/each}}
+   
+  </tbody>
+</table>

@@ -1,0 +1,24 @@
+{
+  "name": "link",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "http-errors": "~1.6.3",
+    "mongodb": "^4.1.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

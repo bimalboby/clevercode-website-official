@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		
+		<title>{{pagetitle}}</title>
+		<meta name="description" content="Kerala experts in Web Design,E Commerce development, SEO (Search Engine Optimization).">
+		<meta name="keywords" content="Web design kerala,best web design company in kerala,web development companies in kerala">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/stylesheets/animate.min.css">
+		<link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+		<link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/stylesheets/templatemo-style.css">
+		        <link rel="stylesheet"        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+		
+        <script src="/javascripts/jquery.js"></script>
+		<script src="/javascripts/bootstrap.min.js"></script>
+        <script src="/javascripts/jquery.singlePageNav.min.js"></script>
+		<script src="/javascripts/typed.js"></script>
+		<script src="/javascripts/wow.min.js"></script>
+		<script src="/javascripts/custom.js"></script>
+
+        </head>
+ 
+   
+        
+
+		
+	<body id="top">
+
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>+91 9074942053</p>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> </span><a href="mailto:clevercodesolutions@gmail.com">clevercodesolutions@gmail.com</a> </p>
+                 
+                        
+						
+				
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Meet us on</span></li>
+                            <li><a href="https://www.facebook.com/Clever-Code-Solutions-102784932138273" class="fa fa-facebook"></a></li>
+                            <li><a href="https://wa.me/919074942053" class="fa fa-whatsapp"></a></li>
+                            <li><a href="tel:919074942053" class="fa fa-phone"></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- end header -->
+
+    {{#if admin}}
+    {{>admin-header}}
+    {{else}}
+    {{>user-header}}
+    {{/if}}
+  
+   
+{{{body}}}
+</body>
+</html>
