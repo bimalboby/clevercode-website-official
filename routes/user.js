@@ -35,7 +35,8 @@ router.get('/e-commerce-pricing',(req,res)=>{
 router.get('/seo-pricing',(req,res)=>{
   adminHelpers.faqLoader('seo').then((faqItems)=>{
     let pageheading='Best SEO agency in kerala'
-    res.render('price-seo',{faqItems,pageheading})
+    let pagetitle='SEO experts in kerala'
+    res.render('price-seo',{faqItems,pageheading,pagetitle})
   })
 });
 
